@@ -1,0 +1,99 @@
+.friend-page{
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 170px auto;
+}
+
+.start-new-game{
+    margin-bottom: 25px;
+}
+
+.new-game-btn{
+    width: 250px;
+    padding: 10px 20px;
+    border: 2px solid;
+    border-color: #309058;
+    background-color: #309058;
+    margin: 10px;
+    font-weight: 500;
+    color: white;
+    border-radius: 50px;
+    font-size: 20px;
+    cursor: pointer;
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;
+}
+
+.new-game-btn:hover{
+    border-color: white;
+    font-weight: 600;
+    color: white;
+    text-shadow: 3px 3px 8px black;
+    background-color: rgba(255, 255, 255, 0);
+    -o-backdrop-filter: blur(3px);
+    -webkit-backdrop-filter: blur(3px);
+    -moz-backdrop-filter: blur(3px);
+    backdrop-filter: blur(3px);
+}
+
+.new-game-info{
+    margin-top: 70px;
+}
+
+.copy{
+    display: none;
+    padding: 5px;
+    position: absolute;
+    margin-top: -62px;
+    margin-left: 322px;
+    font-size: 12px;
+    text-align: right;
+    border-radius: 5px;
+    color:white;
+    font-weight: 600;
+    background-color: black;
+}
+
+.label{
+    padding: 10px 20px;
+    border: 1px solid gray;
+    border-radius: 50px;
+    font-size: 15px;
+    background-color: rgba(0, 0, 0, 0.5);
+    color: white;
+    font-weight: bold;
+}
+
+.label::placeholder{
+    color: white;
+    opacity: 0.5;
+}
+
+.label:focus{
+    outline: 2px solid #309058;
+    border-color: transparent;
+}
+
+.join-form{
+    display:flex;
+    padding-top: 10px;
+}
+
+.btn-join{
+    padding: 10px 20px;
+    border-radius: 50px;
+    border: 2px solid #309058;
+    background-color: #309058;
+    color: white;
+    font-weight: 600;
+    font-size: 15px;  
+}
+
+.btn-join:hover{
+    background-color: rgba(0, 0, 0, 0.1);
+    color: #309058;
+    cursor: pointer;
+    font-weight: 600;
+    text-shadow: 3px 3px 8px black;
+}

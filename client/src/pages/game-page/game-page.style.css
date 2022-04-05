@@ -1,0 +1,90 @@
+.game-page{
+    display: flex;
+    background-color: #202124; 
+    justify-content: center;
+    align-items: center;
+    height: 91vh;
+    box-shadow: rgba(255, 255, 255, 0.2) 0px 8px 24px;
+}
+
+#searching-opponent {
+    font-size: 20px;
+    color: #FFFFFF;
+    display: flex;
+    align-items: center;
+    margin-top: -30px;
+    margin-bottom: -10px;
+}
+
+.chess-board{
+    background-color: #555555;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+.disconnect-btn{
+    display: none;
+    padding: 5px 10px;
+    background-color: #dc3545;
+    border: none;
+    color: white;
+    font-weight: 600;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.disconnect-btn:hover {
+    background-color: #D2042D;
+}
+
+.rematch-btn{
+    display: none;
+    padding: 5px 10px;
+    margin-right: 20px;
+    background-color: #4CAF50;
+    border: none;
+    color: white;
+    font-weight: 600;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.rematch-btn:hover {
+    background-color: #04AA6D;
+}
+
+.accept-rematch-btn {
+    display: none;
+    padding: 5px 10px;
+    margin-right: 20px;
+    background-color: #4CAF50;
+    border: none;
+    color: white;
+    font-weight: 600;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.accept-rematch-btn {
+    background-color: #04AA6D;
+}
+
+.reject-rematch-btn {
+    display: none;
+    padding: 5px 10px;
+    margin-right: 20px;
+    background-color: #dc3545;
+    border: none;
+    color: white;
+    font-weight: 600;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.reject-rematch-btn {
+    background-color: #D2042D;
+}

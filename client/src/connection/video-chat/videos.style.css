@@ -1,0 +1,36 @@
+.videos {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 20px;
+}
+
+.video {
+    border-radius: 5px;
+}
+
+.my-video-container {
+    margin-top: 20px;
+    height: 250px;  
+    box-shadow: rgba(128, 128, 128, 0.2) 0px 8px 24px;
+}
+
+.opponent-video-container {
+    margin-bottom: 25px;   
+    height: 250px;
+    box-shadow: rgba(128, 128, 128, 0.2) 0px 8px 24px;
+}
+
+.spinner {
+    border-radius: 5px;
+    height: 267px;
+    width: 356px;
+    background-color: #555555;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* border: 3px solid #28a745; */
+    border-radius: 5px;
+    
+}

@@ -1,0 +1,64 @@
+.home-page{
+    display: flex;
+    justify-content: center;
+    margin-top: 250px;
+}
+
+.btn-play-random{
+    padding: 15px 10px 15px 10px;
+    border: 2px solid;
+    border-color: 	#309058;
+    background-color: #309058;
+    margin: 20px;
+    font-weight: 500;
+    color: white;
+    border-radius: 50px;
+    width: 350px;
+    font-size: 20px;
+    cursor: pointer;
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;
+}
+
+.btn-play-random:hover{
+    border-color: #309058;
+    color: #309058;
+    background-color: transparent;
+    transition: 0.3s;
+    font-weight: 600;
+    background-color: rgba(255, 255, 255, 0);
+    -o-backdrop-filter: blur(3px);
+    -webkit-backdrop-filter: blur(3px);
+    -moz-backdrop-filter: blur(3px);
+    backdrop-filter: blur(3px);
+    text-shadow: 1px 1px 2px black;
+}   
+
+.btn-play-friend{
+    padding: 15px 10px 15px 10px;
+    border: 2px solid;
+    border-color: #309058;
+    background-color: transparent;
+    margin: 20px;
+    font-weight: 500;
+    color: #309058;
+    text-shadow: 3px 3px 8px black;
+    border-radius: 50px;
+    width: 350px;
+    font-size: 20px;
+    cursor: pointer;
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;
+    background-color: rgba(255, 255, 255, 0);
+    -o-backdrop-filter: blur(3px);
+    -webkit-backdrop-filter: blur(3px);
+    -moz-backdrop-filter: blur(3px);
+    backdrop-filter: blur(3px);
+}
+
+.btn-play-friend:hover{
+    border-color: #309058;
+    color: white;
+    background-color: #309058;
+    transition: 0.3s;
+    font-weight: 600;
+    text-shadow: none;
+}   
